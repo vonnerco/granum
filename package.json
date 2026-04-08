@@ -1,0 +1,28 @@
+{
+  "name": "granum",
+  "version": "1.0.0",
+  "description": "This project is a take-home assignment to build a small AI-powered text enhancement API. It takes raw text, enhances it using an LLM, and logs every interaction to a SQLite database.",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/server.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2"
+  }
+}
