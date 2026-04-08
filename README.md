@@ -98,4 +98,4 @@ curl "http://localhost:8000/history?page=1&page_size=10"
 ## Notes
 
 - The project includes some legacy Node files from earlier iterations (`server.js`, `package.json`) but the delivered assessment implementation is the Python/FastAPI code under `src/`.
-- The Gemini Python SDK used here works but emits a deprecation warning advising migration to `google.genai` in the future.
+- The LLM integration uses the current Gemini Python SDK package: `google-genai`.

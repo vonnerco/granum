@@ -4,6 +4,6 @@ sqlalchemy
 aiosqlite
 python-dotenv
 pydantic-settings
-google-generativeai
+google-genai
 pytest
 httpx
